@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\PirmeiroProjeto\PirmeiroProjeto\bin\Debug\PirmeiroProjeto.exe.config
+C:\Users\Dell\source\repos\PirmeiroProjeto\PirmeiroProjeto\bin\Debug\PirmeiroProjeto.exe
+C:\Users\Dell\source\repos\PirmeiroProjeto\PirmeiroProjeto\bin\Debug\PirmeiroProjeto.pdb
+C:\Users\Dell\source\repos\PirmeiroProjeto\PirmeiroProjeto\obj\Debug\PrimeiroProjeto.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PirmeiroProjeto\PirmeiroProjeto\obj\Debug\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PirmeiroProjeto\PirmeiroProjeto\obj\Debug\PirmeiroProjeto.exe
+C:\Users\Dell\source\repos\PirmeiroProjeto\PirmeiroProjeto\obj\Debug\PirmeiroProjeto.pdb
