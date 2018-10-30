@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\PirmeiroProjeto\ConsoleApp1\obj\Debug\MediaIdade.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PirmeiroProjeto\ConsoleApp1\obj\Debug\MediaIdade.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PirmeiroProjeto\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Dell\source\repos\PirmeiroProjeto\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Dell\source\repos\PirmeiroProjeto\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Dell\source\repos\PirmeiroProjeto\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Dell\source\repos\PirmeiroProjeto\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
