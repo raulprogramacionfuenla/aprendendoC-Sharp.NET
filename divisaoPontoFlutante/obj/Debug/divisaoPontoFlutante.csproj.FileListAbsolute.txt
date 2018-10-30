@@ -5,3 +5,10 @@ C:\Users\Dell\source\repos\PirmeiroProjeto\divisaoPontoFlutante\obj\Debug\divisa
 C:\Users\Dell\source\repos\PirmeiroProjeto\divisaoPontoFlutante\obj\Debug\divisaoPontoFlutante.csproj.CoreCompileInputs.cache
 C:\Users\Dell\source\repos\PirmeiroProjeto\divisaoPontoFlutante\obj\Debug\divisaoPontoFlutante.exe
 C:\Users\Dell\source\repos\PirmeiroProjeto\divisaoPontoFlutante\obj\Debug\divisaoPontoFlutante.pdb
+C:\Users\Dell\source\repos\PrimeiroProjeto\divisaoPontoFlutante\bin\Debug\divisaoPontoFlutante.exe.config
+C:\Users\Dell\source\repos\PrimeiroProjeto\divisaoPontoFlutante\bin\Debug\divisaoPontoFlutante.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\divisaoPontoFlutante\bin\Debug\divisaoPontoFlutante.pdb
+C:\Users\Dell\source\repos\PrimeiroProjeto\divisaoPontoFlutante\obj\Debug\divisaoPontoFlutante.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\divisaoPontoFlutante\obj\Debug\divisaoPontoFlutante.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\divisaoPontoFlutante\obj\Debug\divisaoPontoFlutante.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\divisaoPontoFlutante\obj\Debug\divisaoPontoFlutante.pdb
