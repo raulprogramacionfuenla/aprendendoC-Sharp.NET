@@ -34,6 +34,8 @@ namespace divisaoPontoFlutante
             //os dois numeros lidos (num1 e num2) devem estar em apenas uma linha
             // o split armazena cada um separadamente em cada uma posicao do vetor buffer
 
+            // Teste
+
             buffer = Console.ReadLine().Split(' ');
             num1 = double.Parse(buffer[0]);
             num2 = double.Parse(buffer[1]);

@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\PrimeiroProjeto\ConsoleApp2\obj\Debug\operacaoTriangulo.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\ConsoleApp2\obj\Debug\operacaoTriangulo.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Dell\source\repos\PrimeiroProjeto\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Dell\source\repos\PrimeiroProjeto\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
