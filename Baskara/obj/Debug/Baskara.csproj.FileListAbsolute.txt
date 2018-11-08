@@ -5,3 +5,10 @@ C:\Users\Dell\source\repos\PirmeiroProjeto\Baskara\obj\Debug\Baskara.csprojAssem
 C:\Users\Dell\source\repos\PirmeiroProjeto\Baskara\obj\Debug\Baskara.csproj.CoreCompileInputs.cache
 C:\Users\Dell\source\repos\PirmeiroProjeto\Baskara\obj\Debug\Baskara.exe
 C:\Users\Dell\source\repos\PirmeiroProjeto\Baskara\obj\Debug\Baskara.pdb
+C:\Users\Dell\source\repos\PrimeiroProjeto\Baskara\bin\Debug\Baskara.exe.config
+C:\Users\Dell\source\repos\PrimeiroProjeto\Baskara\bin\Debug\Baskara.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\Baskara\bin\Debug\Baskara.pdb
+C:\Users\Dell\source\repos\PrimeiroProjeto\Baskara\obj\Debug\Baskara.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\Baskara\obj\Debug\Baskara.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\Baskara\obj\Debug\Baskara.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\Baskara\obj\Debug\Baskara.pdb

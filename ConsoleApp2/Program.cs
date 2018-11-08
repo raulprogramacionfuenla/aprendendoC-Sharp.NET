@@ -12,6 +12,8 @@ namespace operacaoTriangulo
     {
         static void Main(string[] args)
         {
+            // Este programa tem o objetivo de calcular a área de 2 triangulos atravez das medidas de seus lados,
+            // utilizando a formula de heron
 
             Triangulo x, y;
             x = new Triangulo();
