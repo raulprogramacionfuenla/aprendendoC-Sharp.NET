@@ -19,6 +19,9 @@ namespace controleEstoque
 
             Produto p = new Produto(nome, preco);
 
+            Console.WriteLine("Teste do to String");
+            Console.WriteLine(p.ToString());
+
             Console.WriteLine("Digite a opção: " +
                   "\n 1 - Entrada de Estoque" +
                   "\n 2 - Saída de Estoque" +

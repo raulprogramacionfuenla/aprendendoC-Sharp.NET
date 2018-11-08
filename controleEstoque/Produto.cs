@@ -20,6 +20,11 @@ namespace controleEstoque
             this.quantidadeEstoque = 0;
         }
 
+        public override string ToString()
+        {
+            return nome  + "|||" + valorUnitario + "|||"  + quantidadeEstoque;
+        }
+
         public void realizarEntrada (int quantidade)
         {
             quantidadeEstoque = quantidadeEstoque + quantidade;
