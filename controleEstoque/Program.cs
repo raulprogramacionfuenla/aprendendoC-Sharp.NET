@@ -38,7 +38,7 @@ namespace controleEstoque
                     Console.WriteLine("Digite a quantidade de entrada: ");
                     quantidade = int.Parse(Console.ReadLine());
                     p.realizarEntrada(quantidade);
-                    p.imprimirDados();
+                    Console.WriteLine(p.ToString());
                 }
 
                 else if (op == 2)
@@ -47,12 +47,12 @@ namespace controleEstoque
                     Console.WriteLine("Digite a quantidade de saída: ");
                     quantidade = int.Parse(Console.ReadLine());
                     p.realizarSaida(quantidade);
-                    p.imprimirDados();
+                    Console.WriteLine(p.ToString());
                 }
 
                 else if (op == 3)
                 {
-                    p.imprimirDados();
+                    Console.WriteLine(p.ToString());
                 }
 
                 else if (op == 4 )

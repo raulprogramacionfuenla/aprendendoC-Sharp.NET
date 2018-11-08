@@ -22,7 +22,7 @@ namespace controleEstoque
 
         public override string ToString()
         {
-            return nome  + "|||" + valorUnitario + "|||"  + quantidadeEstoque;
+            return "Nome: " + nome  + " Unidades: " + valorUnitario + " Valor Total: "  + quantidadeEstoque;
         }
 
         public void realizarEntrada (int quantidade)
