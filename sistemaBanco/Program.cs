@@ -8,6 +8,7 @@ namespace sistemaBanco
 {
     class Program
     {
+        // Este programa tem o objeito de realizar operações de saque, depoisito e saldo para uma conta bancaria para treinar questões de orientação objeto: Instanciação de classe, sobrecarga de métodos e construtores
         static void Main(string[] args)
         {
             // leitura do dados do titular
