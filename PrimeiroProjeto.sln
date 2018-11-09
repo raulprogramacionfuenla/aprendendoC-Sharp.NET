@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "musicTool", "musicTool\musi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "controleEstoque", "controleEstoque\controleEstoque.csproj", "{C634A77D-4F2F-4F0B-9761-7CE9FA05EE45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistemaBanco", "sistemaBanco\sistemaBanco.csproj", "{A96C9615-2535-48EF-88AA-36FD9D97F993}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C634A77D-4F2F-4F0B-9761-7CE9FA05EE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C634A77D-4F2F-4F0B-9761-7CE9FA05EE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C634A77D-4F2F-4F0B-9761-7CE9FA05EE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96C9615-2535-48EF-88AA-36FD9D97F993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96C9615-2535-48EF-88AA-36FD9D97F993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96C9615-2535-48EF-88AA-36FD9D97F993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96C9615-2535-48EF-88AA-36FD9D97F993}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

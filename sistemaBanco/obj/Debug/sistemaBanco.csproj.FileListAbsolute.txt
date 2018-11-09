@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\PrimeiroProjeto\sistemaBanco\obj\Debug\sistemaBanco.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\sistemaBanco\bin\Debug\sistemaBanco.exe.config
+C:\Users\Dell\source\repos\PrimeiroProjeto\sistemaBanco\bin\Debug\sistemaBanco.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\sistemaBanco\bin\Debug\sistemaBanco.pdb
+C:\Users\Dell\source\repos\PrimeiroProjeto\sistemaBanco\obj\Debug\sistemaBanco.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\sistemaBanco\obj\Debug\sistemaBanco.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\sistemaBanco\obj\Debug\sistemaBanco.pdb
