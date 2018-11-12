@@ -15,16 +15,27 @@ namespace controleEstoque
             // encapsulamento, contrutores, sobrecarga de método
 
             // Este programa permite o usuário criar um objeto produto informando seu nome e preco
+            int numProdutos;
             String nome;
             double preco;
-            Console.WriteLine("Digite o nome: ");
-            nome = Console.ReadLine();
-            Console.WriteLine("Digite o preço");
-            preco = double.Parse(Console.ReadLine());
+            Produto[] produtos;
+
+            Console.WriteLine("Digite o número de produtos que deseja cadastrar");
+            numProdutos = int.Parse(Console.ReadLine());
+            produtos = new Produto[numProdutos];
+
+            for (int i=0; i < produtos.Length; i++)
+            {
+                Console.WriteLine("Digite o nome: ");
+                nome = Console.ReadLine();
+                Console.WriteLine("Digite o preço");
+                preco = double.Parse(Console.ReadLine());
+                produtos[i] = new Produto(nome, preco);
+            }
 
             //criacao do objeto
-            Produto p = new Produto(nome, preco);
-
+            
+            
            // Console.WriteLine("Teste do to String");
           //  Console.WriteLine(p.ToString());
 
@@ -33,7 +44,8 @@ namespace controleEstoque
                   "\n 1 - Entrada de Estoque" +
                   "\n 2 - Saída de Estoque" +
                   "\n 3 - Visualizar Dados" +
-                  "\n 4- Visualizar quantidade total no estoque" +
+                  "\n 4- Visualizar valor quantidade total no estoque" +
+                  "\n 5 - Lista de todos os Produtos  " + 
                   "\n 0 - Finalizar");
 
             int op =  int.Parse(Console.ReadLine());
@@ -46,41 +58,65 @@ namespace controleEstoque
                 if (op==1)
                 {
                     int quantidade;
+                    int posicaoVetor;
+                    Console.WriteLine("Digite a posicao do vetor do produto");
+                    posicaoVetor = int.Parse(Console.ReadLine());
                     Console.WriteLine("Digite a quantidade de entrada: ");
                     quantidade = int.Parse(Console.ReadLine());
-                    p.realizarEntrada(quantidade);
-                    Console.WriteLine(p.ToString());
+                    produtos[posicaoVetor].realizarEntrada(quantidade);
+                    Console.WriteLine(posicaoVetor.ToString());
                 }
                 // caso digite 1 entra no cadastro de saída de estoque
 
                 else if (op == 2)
                 {
                     int quantidade;
+                    int posicaoVetor;
+                    Console.WriteLine("Digite a posicao do vetor do produto");
+                    posicaoVetor = int.Parse(Console.ReadLine());
                     Console.WriteLine("Digite a quantidade de saída: ");
                     quantidade = int.Parse(Console.ReadLine());
-                    p.realizarSaida(quantidade);
-                    Console.WriteLine(p.ToString());
+                    produtos[posicaoVetor].realizarSaida(quantidade);
+                    Console.WriteLine(produtos[posicaoVetor].ToString());
                 }
                 // caso digite 3 apenas visualiza os dados do produto
 
                 else if (op == 3)
                 {
-                    Console.WriteLine(p.ToString());
+                    int posicaoVetor;
+                    Console.WriteLine("Digite a posicao do vetor do produto");
+                    posicaoVetor = int.Parse(Console.ReadLine());
+                    Console.WriteLine(produtos[posicaoVetor].ToString());
+
                 }
 
                 // caso digite 4 realiza o calculo de todo valor daquele produto no estoque
 
                 else if (op == 4 )
                 {
-                    Console.WriteLine("Valor total do produto no estoque: " + p.calculaTotalEstoque());
+                    int posicaoVetor;
+                    Console.WriteLine("Digite a posicao do vetor do produto");
+                    posicaoVetor = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Valor total do produto no estoque: " + produtos[posicaoVetor].calculaTotalEstoque());
                 }
+
+                else if (op == 5)
+                {
+                    for (int i=0; i<produtos.Length; i++)
+                    {
+
+                        Console.WriteLine(produtos[i] + "\n");
+                    }
+                }
+         
                 
                     Console.WriteLine("Digite a opção: " +
                   "\n 1 - Entrada de Estoque" +
                   "\n 2 - Saída de Estoque" +
                   "\n 3 - Visualizar Dados" +
-                  "\n 4- Visualizar quantidade total no estoque" +
-                  "\n 0 - Finalizar");
+                  "\n 4 - Visualizar quantidade total no estoque" +
+                  "\n 5 - Lista de todos os Produtos  " +
+                  "\n 0 - Finalizar \n");
                 op = int.Parse(Console.ReadLine());
             }
                 

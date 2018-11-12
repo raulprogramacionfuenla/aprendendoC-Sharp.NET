@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "controleEstoque", "controle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistemaBanco", "sistemaBanco\sistemaBanco.csproj", "{A96C9615-2535-48EF-88AA-36FD9D97F993}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mediaNumeros", "mediaNumeros\mediaNumeros.csproj", "{7D895E54-C6F7-44B7-AC8A-C510521F372F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A96C9615-2535-48EF-88AA-36FD9D97F993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96C9615-2535-48EF-88AA-36FD9D97F993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A96C9615-2535-48EF-88AA-36FD9D97F993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D895E54-C6F7-44B7-AC8A-C510521F372F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D895E54-C6F7-44B7-AC8A-C510521F372F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D895E54-C6F7-44B7-AC8A-C510521F372F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D895E54-C6F7-44B7-AC8A-C510521F372F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

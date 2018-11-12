@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\PrimeiroProjeto\mediaNumeros\bin\Debug\mediaNumeros.exe.config
+C:\Users\Dell\source\repos\PrimeiroProjeto\mediaNumeros\bin\Debug\mediaNumeros.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\mediaNumeros\bin\Debug\mediaNumeros.pdb
+C:\Users\Dell\source\repos\PrimeiroProjeto\mediaNumeros\obj\Debug\mediaNumeros.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\mediaNumeros\obj\Debug\mediaNumeros.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\mediaNumeros\obj\Debug\mediaNumeros.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\mediaNumeros\obj\Debug\mediaNumeros.pdb
