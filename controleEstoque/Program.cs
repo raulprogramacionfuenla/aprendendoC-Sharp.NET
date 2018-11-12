@@ -61,10 +61,22 @@ namespace controleEstoque
                     int posicaoVetor;
                     Console.WriteLine("Digite a posicao do vetor do produto");
                     posicaoVetor = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Digite a quantidade de entrada: ");
-                    quantidade = int.Parse(Console.ReadLine());
-                    produtos[posicaoVetor].realizarEntrada(quantidade);
-                    Console.WriteLine(posicaoVetor.ToString());
+
+                    if (posicaoVetor >= 0 && posicaoVetor < produtos.Length)
+
+                    {
+                        Console.WriteLine("Digite a quantidade de entrada: ");
+                        quantidade = int.Parse(Console.ReadLine());
+                        produtos[posicaoVetor].realizarEntrada(quantidade);
+                        Console.WriteLine(posicaoVetor.ToString());
+
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Valor fora do limite! \n");
+                    }
+
                 }
                 // caso digite 1 entra no cadastro de saída de estoque
 
@@ -74,10 +86,21 @@ namespace controleEstoque
                     int posicaoVetor;
                     Console.WriteLine("Digite a posicao do vetor do produto");
                     posicaoVetor = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Digite a quantidade de saída: ");
-                    quantidade = int.Parse(Console.ReadLine());
-                    produtos[posicaoVetor].realizarSaida(quantidade);
-                    Console.WriteLine(produtos[posicaoVetor].ToString());
+                    if (posicaoVetor >= 0 && posicaoVetor < produtos.Length)
+
+                    {
+                        Console.WriteLine("Digite a quantidade de saída: ");
+                        quantidade = int.Parse(Console.ReadLine());
+                        produtos[posicaoVetor].realizarSaida(quantidade);
+                        Console.WriteLine(produtos[posicaoVetor].ToString());
+
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Valor fora do limite! \n");
+                    }
+                    
                 }
                 // caso digite 3 apenas visualiza os dados do produto
 
@@ -86,7 +109,18 @@ namespace controleEstoque
                     int posicaoVetor;
                     Console.WriteLine("Digite a posicao do vetor do produto");
                     posicaoVetor = int.Parse(Console.ReadLine());
-                    Console.WriteLine(produtos[posicaoVetor].ToString());
+                                        Console.WriteLine(produtos[posicaoVetor].ToString());
+                    if (posicaoVetor >= 0 && posicaoVetor < produtos.Length)
+
+                    {
+                        Console.WriteLine(produtos[posicaoVetor].ToString());
+
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Valor fora do limite! \n");
+                    }
 
                 }
 
@@ -97,7 +131,16 @@ namespace controleEstoque
                     int posicaoVetor;
                     Console.WriteLine("Digite a posicao do vetor do produto");
                     posicaoVetor = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Valor total do produto no estoque: " + produtos[posicaoVetor].calculaTotalEstoque());
+                    if (posicaoVetor >= 0 && posicaoVetor < produtos.Length)
+                    {
+                        Console.WriteLine("Valor total do produto no estoque: " + produtos[posicaoVetor].calculaTotalEstoque() + "\n");
+
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Valor fora do limite! \n");
+                    }
                 }
 
                 else if (op == 5)
