@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\PrimeiroProjeto\Matriz\obj\Debug\Matriz.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\Matriz\obj\Debug\Matriz.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PrimeiroProjeto\Matriz\bin\Debug\Matriz.exe.config
+C:\Users\Dell\source\repos\PrimeiroProjeto\Matriz\bin\Debug\Matriz.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\Matriz\bin\Debug\Matriz.pdb
+C:\Users\Dell\source\repos\PrimeiroProjeto\Matriz\obj\Debug\Matriz.exe
+C:\Users\Dell\source\repos\PrimeiroProjeto\Matriz\obj\Debug\Matriz.pdb
