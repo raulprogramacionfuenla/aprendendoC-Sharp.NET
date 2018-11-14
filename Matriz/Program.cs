@@ -20,56 +20,65 @@ namespace Matriz
             {
                 Console.WriteLine("Vizinho de cima: X ");
             }
+
+            // impresao do vizinho de baixo
+
+            if (lin < numLinhas - 1)
+            {
+                Console.WriteLine("Vizinho de baixo: " + mat[lin + 1, col]);
+            }
+            else
+            {
+                Console.WriteLine("Vizinho de baixo: X ");
+            }
+            // impresao vizinho da esquerda
+
+            if (col > 0)
+            {
+                Console.WriteLine("Vizinho da esquerda: " + mat[lin, col - 1]);
+            }
+
+            else
+            {
+                Console.WriteLine("Vizinho da esquerda: X ");
+            }
+
+            // impressao vizinho da direita
+
+            if (col < numColunas -1)
+            {
+                Console.WriteLine("Vizinho da direita: " + mat[lin, col + 1]);
+            }
+
+            else
+            {
+                Console.WriteLine("Vizinho da direita: X ");
+            }
         }
         
 
         static void Main(string[] args)
         {
-            int numLinha, numCol;
+            int numLinhas, numColunas;
             Console.WriteLine("Digte o número de linhas da matriz");
-            numLinha = int.Parse(Console.ReadLine());
+            numLinhas = int.Parse(Console.ReadLine());
             Console.WriteLine("Digte o número de colunas da matriz");
-            numCol = int.Parse(Console.ReadLine());
-            int[,] mat = new int[numLinha, numCol];
+            numColunas = int.Parse(Console.ReadLine());
 
-            // Preenchimento da matriz
-
-            for (int i = 0; i < numLinha; i++)
-                for (int j = 0; j < numCol; j++)
-                {
-
-                    {
-                        mat[i, j] = int.Parse(Console.ReadLine());
-                    }
-                }
-
-            for (int i = 0; i < numLinha; i++)
-                for (int j = 0; j < numCol; j++)
-                {
-                    {
-                        Console.Write(mat[i, j] + "\t");
-
-                    }
-                    
-                    
-                    Console.WriteLine();
-                              
-                }
+            Matriz matriz = new Matriz(numLinhas, numColunas);
+            matriz.preencherMatriz();
+           
             int lin, col;
             Console.WriteLine("Digite a linha do elemento a ser buscado");
             lin = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite a coluna do elemento a ser buscado");
             col = int.Parse(Console.ReadLine());
 
-            if (lin >= numLinha || col >= numCol)
-            {
-                Console.WriteLine("Fora do intervalo!");
-            }
-            else
-            {
-                imprimeVizinhos(mat, lin, col, numLinha, numCol);
-            }
-            
+            matriz.buscarNumero(lin, col);
+            matriz.imprimirVizinhoSuperior(lin, col);
+            matriz.imprimirVizinhoInferior(lin, col);
+            matriz.imprimirVizinhoEsquerda(lin, col);
+            matriz.imprimirVizinhoDireita(lin, col);
 
             Console.ReadLine();
         }
